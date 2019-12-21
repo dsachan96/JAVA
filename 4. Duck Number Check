@@ -1,0 +1,40 @@
+****************************************************check if a give string is a duck number or Not****************
+
+
+
+import java.util.Scanner;
+
+
+
+ public class Practice
+
+ {//Duck Number
+
+  public static void main(String[]args)
+
+  {
+
+  Scanner sc = new Scanner(System.in);
+
+  String name = sc.nextLine();
+
+  if(name.indexOf("0")>0)
+
+  {
+
+   System.out.println("duck Number");
+
+  }
+
+  else
+
+  {
+
+   System.out.println("Not a duck Number");
+
+  }
+
+  }
+
+ }
+
